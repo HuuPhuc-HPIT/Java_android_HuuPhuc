@@ -123,18 +123,37 @@ public class Bt5HinhVe {
 		}
 	}
 	
-	public static void hinhk(int n) {
-		for(int i=1; i<=(2*n-1); i++) {
-			for(int j=n; j>=1; j--) {
-				System.out.print(" ");
-			}
-			for(int k=1; k<=i; k++) {
-				System.out.print("* ");
-			}
-			System.out.println("");
-		}
-	}
+	public static void hinhk(int h){
+        int d = h;
+        h = 2*h-1;
+        for(int i=1;i<=h;i++){
+            for(int j=1;j<=d;j++){
+                if(i==d){
+                    System.out.print("* ");
+                }
+                else if(i<d&&(j==1||j<=i)){
+                    System.out.print("* ");
+                }
+                else if(i>d&&(j==d||j>i-d)){
+                    System.out.print("* ");
+                }
+                else{
+                    System.out.print("  ");
+                }
+            }
+            System.out.print("\n");
+        }
+    }
 	
+	public static void hinhl(int h){
+        int d = h;
+        h = 2*h-1;
+        for(int i=1;i<=h;i++){
+            for(int j=1;j<=d;j++){
+                
+            }
+        }
+    }
 	public static void hinhn(int h) {
 		for(int i=1; i<=h; i++) {
 			for(int j=1; j<=h; j++) {
@@ -151,7 +170,7 @@ public class Bt5HinhVe {
 	
 	
 	public static void main(String[] args) {
-		hinhn(7);
+		hinhk(4);
 		
 	}
 }
