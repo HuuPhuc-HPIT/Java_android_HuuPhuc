@@ -1,0 +1,51 @@
+package hpit.com;
+
+public class Bt5HinhVe {
+	public static void hinha(int h) {
+		for(int i=1; i<=h; i++) {
+			for(int j=1; j<=h; j++) {
+				System.out.print("* ");
+			}
+			System.out.println("");
+		}
+	}
+	
+	public static void hinhb(int h) {
+		for(int i=1; i<=h; i++) {
+			for(int j=1; j<=h; j++) {
+				if(i==1 || i==h || j==1 || j==h) {
+					System.out.print("* ");
+				}else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println("");
+		}
+	}
+	
+	public static void hinhc(int h) {
+		for(int i=1; i<=h; i++) {
+			for(int j=1; j<=i; j++) {
+				System.out.print("* ");
+			}
+			System.out.println("");
+		}
+	}
+	
+	public static void hinhd(int h) {
+		for(int i=1; i<=h; i++) {
+			for(int j=1; j<=i; j++) {
+				if(i==1 || i==h || j==1 || j==h) {
+					System.out.print("* ");
+				}else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println("");
+		}
+	}
+	
+	public static void main(String[] args) {
+		hinhc(5);
+	}
+}

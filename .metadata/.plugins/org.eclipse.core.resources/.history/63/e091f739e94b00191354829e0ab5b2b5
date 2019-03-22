@@ -1,0 +1,13 @@
+package communityuni.com;
+
+public class TestToanTu {
+
+	public static void main(String[] args) {
+		double dtb = 3;
+		System.out.println(dtb>=5? "Dau" : "Rot");
+		
+		boolean kq=(5<4)  || (4>3) || (1>2);
+		System.out.println(kq);
+	}
+
+}

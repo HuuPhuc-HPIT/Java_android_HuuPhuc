@@ -1,0 +1,23 @@
+package hpit.com;
+
+public class TestFor {
+	public static double TinhS(int n, int x) {
+		double s=0;
+		double mau= 0;
+		
+		for(int i=1; i<=n; i++) {
+			double tu= Math.pow(x, i);			
+			for(int j=1; j<=i; j++) {
+				mau +=j;
+			}
+			s= s +tu/mau;
+		}
+		return s;
+	}
+	
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

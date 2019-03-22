@@ -1,0 +1,14 @@
+package community.com;
+
+public class Testcomment {
+	public static void main(String[] args) {
+		//Day la lenh comment 1 dong
+		System.out.println("alo alo");
+		/*
+		 * Day la vi du su dung cac ki tu dac  biet
+		 *\t day vao 1 tab
+		 * \n xuong dong
+		 */
+		System.out.println("\t Hello \n Xuống dong\"comment\*");
+	}
+}

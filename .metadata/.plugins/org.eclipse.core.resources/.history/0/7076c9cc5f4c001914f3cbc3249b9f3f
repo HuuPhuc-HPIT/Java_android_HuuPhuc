@@ -1,0 +1,17 @@
+package hpit.com;
+
+public class TestFor_Img1 {
+	
+	public static void hinh1(int h) {
+		for(int i=0; i<h; i++) {
+			for(int j=i; j<h; j++) {
+				System.out.println("*");
+			}
+			System.out.println();
+		}
+	}
+	public static void main(String[] args) {
+		hinh1(10);
+	}
+
+}
