@@ -1,0 +1,9 @@
+package bai71_oop_overriding.com.model;
+
+public class NhanVienThoiVu extends NhanVien {
+
+	public void tinhLuong (int ngayCong) {
+		System.out.println(100*ngayCong);
+	}
+
+}

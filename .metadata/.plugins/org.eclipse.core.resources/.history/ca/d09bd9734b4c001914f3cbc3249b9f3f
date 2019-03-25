@@ -1,9 +1,0 @@
-package hpit.com;
-
-public class TestPtb2 {
-
-	public static void main(String[] args) {
-		
-	}
-
-}
