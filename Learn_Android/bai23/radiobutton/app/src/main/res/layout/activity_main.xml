@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Đánh giá hệ thống: "
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radTuyetVoi"
+            android:layout_width="123dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:text="Tuyet voi" />
+
+        <RadioButton
+            android:id="@+id/radDuoc"
+            android:layout_width="123dp"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:text="Được" />
+
+        <RadioButton
+            android:id="@+id/radKem"
+            android:layout_width="123dp"
+            android:layout_height="7dp"
+            android:layout_weight="1"
+            android:text="Kém" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnChon"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="Bình chọn"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>
